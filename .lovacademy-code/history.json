@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T18:18:04.553Z",
+  "updated_at": "2026-11-17T18:21:27.685Z",
   "messages": [
     {
       "role": "user",
@@ -10,6 +10,15 @@
     {
       "role": "assistant",
       "text": "Não consigo criar a landing page sem conhecer a estrutura e a tecnologia do projeto: o único arquivo disponível é o README.md, sem código de aplicação nem configuração. Envie o índice atualizado da branch com os arquivos de src/ para eu criar a página nos caminhos permitidos.\n\nNenhuma alteração foi publicada no GitHub."
+    },
+    {
+      "role": "user",
+      "text": "o que seria o codigo de aplicação e a configuração, e o indice atualizado? o que seria também a Branch e arquivos de src? isso seria algum tipo de skills?",
+      "attachments": []
+    },
+    {
+      "role": "assistant",
+      "text": "Não, isso não é uma *skill*. São termos de desenvolvimento:\n\n- **Código da aplicação**: os arquivos que fazem o site funcionar, como páginas, componentes e estilos.\n- **Configuração**: arquivos que dizem como o projeto é organizado e executado, como `package.json` ou arquivos de configuração do framework.\n- **`src/`**: pasta onde muitos projetos guardam o código-fonte. Nem todo projeto usa esse nome.\n- **Branch**: uma linha de trabalho do projeto no GitHub, como `main` ou uma branch de recurso.\n- **Índice de arquivos**: uma lista dos arquivos disponíveis no projeto. “Índice atualizado da branch” queria dizer uma lista atual dos arquivos daquela linha de trabalho.\n\nNa conversa anterior, o assistente não tinha acesso aos arquivos necessários para montar a página dentro do projeto. Para pedir uma landing page, você pode dizer, por exemplo: **“Crie uma landing page para uma academia de programação, com apresentação dos cursos e botão de inscrição.”** Se a ferramenta estiver conectada ao repositório, ela poderá buscar os arquivos; se não estiver, explicará o que falta."
     }
   ]
 }
