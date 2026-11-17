@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VitaForça Suplementos | Loja de teste</title>
+  <meta name="description" content="Site de teste de uma loja de suplementos: whey, creatina, vitaminas e pré-treino.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="logo" href="#">VITA<span>FORÇA</span></a>
+    <nav>
+      <a href="#produtos">Produtos</a>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button class="carrinho" aria-label="Carrinho">Carrinho (<span id="qtd">0</span>)</button>
+  </header>
+
+  <section class="hero">
+    <p class="tag">Performance &amp; saúde</p>
+    <h1>Combustível para o seu melhor treino.</h1>
+    <p>Suplementos selecionados com qualidade comprovada. Entrega para todo o Brasil.</p>
+    <a class="botao" href="#produtos">Ver produtos</a>
+  </section>
+
+  <section id="produtos" class="secao">
+    <h2>Mais vendidos</h2>
+    <div class="grade" id="grade"></div>
+  </section>
+
+  <section id="beneficios" class="secao beneficios">
+    <div><h3>Laudos de pureza</h3><p>Todos os lotes testados em laboratório.</p></div>
+    <div><h3>Frete grátis</h3><p>Em compras acima de R$ 199.</p></div>
+    <div><h3>Troca fácil</h3><p>Até 30 dias para devolver.</p></div>
+  </section>
+
+  <section id="contato" class="secao contato">
+    <h2>Receba ofertas</h2>
+    <form id="form">
+      <input type="email" placeholder="seu@email.com" required>
+      <button class="botao" type="submit">Inscrever</button>
+    </form>
+    <p id="msg" class="msg"></p>
+  </section>
+
+  <footer>© 2026 VitaForça Suplementos — site de teste. Consulte um profissional antes de suplementar.</footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
