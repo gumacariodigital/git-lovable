@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-17T18:18:04.553Z",
+  "messages": [
+    {
+      "role": "user",
+      "text": "Vamos fazer um teste? crie uma landing page pra mim",
+      "attachments": []
+    },
+    {
+      "role": "assistant",
+      "text": "Não consigo criar a landing page sem conhecer a estrutura e a tecnologia do projeto: o único arquivo disponível é o README.md, sem código de aplicação nem configuração. Envie o índice atualizado da branch com os arquivos de src/ para eu criar a página nos caminhos permitidos.\n\nNenhuma alteração foi publicada no GitHub."
+    }
+  ]
+}
