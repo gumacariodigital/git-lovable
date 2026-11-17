@@ -1,0 +1,27 @@
+:root{--fundo:#0f1210;--texto:#eef2ea;--suave:#9aa596;--destaque:#c6f432;--cartao:#1a1f1b;--borda:#2a312b}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"DM Sans",sans-serif;background:var(--fundo);color:var(--texto);line-height:1.6}
+h1,h2,h3,.logo{font-family:"Archivo Black",sans-serif;line-height:1.1}
+a{color:inherit;text-decoration:none}
+.topo{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.2rem 5vw;border-bottom:1px solid var(--borda);position:sticky;top:0;background:var(--fundo);z-index:10}
+.logo{font-size:1.4rem}.logo span{color:var(--destaque)}
+nav{display:flex;gap:1.5rem}nav a:hover{color:var(--destaque)}
+.carrinho{background:none;border:1px solid var(--destaque);color:var(--destaque);padding:.5rem 1rem;border-radius:999px;cursor:pointer;font:inherit}
+.hero{padding:7rem 5vw 5rem;max-width:900px}
+.tag{color:var(--destaque);text-transform:uppercase;letter-spacing:.15em;font-size:.8rem;margin-bottom:1rem}
+.hero h1{font-size:clamp(2.5rem,7vw,5rem);margin-bottom:1.5rem}
+.hero p{color:var(--suave);font-size:1.15rem;margin-bottom:2rem}
+.botao{display:inline-block;background:var(--destaque);color:var(--fundo);font-weight:600;padding:.85rem 1.8rem;border-radius:999px;border:0;cursor:pointer;font:inherit;font-weight:600;transition:transform .2s}
+.botao:hover{transform:translateY(-2px)}
+.secao{padding:4rem 5vw}.secao h2{font-size:2rem;margin-bottom:2rem}
+.grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1.5rem}
+.produto{background:var(--cartao);border:1px solid var(--borda);border-radius:16px;padding:1.5rem;display:flex;flex-direction:column;gap:.5rem}
+.produto .icone{font-size:2.5rem}.produto .preco{color:var(--destaque);font-weight:600;font-size:1.2rem}
+.produto p{color:var(--suave);font-size:.9rem;flex:1}
+.beneficios{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2rem;border-top:1px solid var(--borda);border-bottom:1px solid var(--borda)}
+.beneficios h3{color:var(--destaque);margin-bottom:.5rem}.beneficios p{color:var(--suave)}
+.contato form{display:flex;gap:1rem;flex-wrap:wrap;max-width:500px}
+.contato input{flex:1;min-width:200px;padding:.85rem 1.2rem;border-radius:999px;border:1px solid var(--borda);background:var(--cartao);color:var(--texto);font:inherit}
+.msg{margin-top:1rem;color:var(--destaque)}
+footer{padding:2rem 5vw;color:var(--suave);font-size:.85rem}
+@media(max-width:640px){nav{display:none}}
